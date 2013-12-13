@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodControl", "FoodControl\FoodControl.csproj", "{CA2064F7-13CC-4002-AA0F-E6F729365EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodControlTests", "FoodControlTests\FoodControlTests.csproj", "{FBC9C497-D48F-4DBB-B3B2-6CD405B5FEF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA2064F7-13CC-4002-AA0F-E6F729365EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2064F7-13CC-4002-AA0F-E6F729365EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2064F7-13CC-4002-AA0F-E6F729365EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2064F7-13CC-4002-AA0F-E6F729365EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC9C497-D48F-4DBB-B3B2-6CD405B5FEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC9C497-D48F-4DBB-B3B2-6CD405B5FEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC9C497-D48F-4DBB-B3B2-6CD405B5FEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC9C497-D48F-4DBB-B3B2-6CD405B5FEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

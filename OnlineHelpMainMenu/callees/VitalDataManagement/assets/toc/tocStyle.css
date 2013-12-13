@@ -1,0 +1,303 @@
+.tocLeftStyle
+{
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+	width:250px;
+}
+.tocRightStyle
+{
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+	width:250px;
+}
+.tocBackgroundStyle
+{
+}
+.tocHeadingStyle
+{
+	height:25px;
+	position: relative;
+}
+.tocBookmarkHeadingStyle
+{
+	position: absolute;
+	left:8px;
+	top:4px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocTest
+{
+    position: absolute;
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
+.tocSlideTitleHeading
+{
+	position: absolute;
+    font-family: Verdana;
+    font-size: 11px;
+	left:27px;
+	top:4px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocSlideTitleHeading:hover {cursor:default;}
+.tocDurationHeading
+{
+	position: absolute;
+    font-family: Verdana;
+    font-size: 11px;
+	right:10px;
+	top:4px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocDurationHeading:hover {cursor:default;}
+.tocContentStyle
+{
+	position: relative;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.tocEntryContainerStyle
+{
+	position: relative;
+	height : 40px;
+}
+.tocEntryContainerStyle:hover {cursor:pointer;}
+.tocBookmark
+{
+	position: absolute;
+	width : 11px;
+	height : 17px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocBookmark:hover {cursor:pointer;}
+.tocExpander
+{
+	position: absolute;
+	width : 5px;
+	height : 8px;
+	top : 10px;
+	left : 0px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocExpander:hover {cursor:pointer;}
+.tocVisited
+{
+	position: absolute;
+	width : 16px;
+	height : 16px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocDuration
+{
+	position: absolute;
+	width : 37px;
+	font-family: Verdana;
+    font-size: 12px;
+	top:4px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocText
+{
+	position: absolute;
+	width : 60px;
+	font-family: Verdana;
+    font-size: 18px;
+	left:146px;
+	top:4px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocTitle
+{
+	position: relative;
+	height : 50px;
+}
+.tocnavigate
+{
+	position: absolute;
+	width : 65px;
+	height : 21px;
+	left: 5px;
+}
+.tocSearchBtn
+{
+	position: absolute;
+	width : 24px;
+	height : 23px;
+	right :  10px;
+}
+.tocSearchBtn:hover {cursor:pointer;}
+.tocTitleText
+{
+	left : 8px;
+	position: absolute;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocTitleText:hover {cursor:default;}
+.tocSearchBar
+{
+	position: relative;
+	height:30px;
+	overflow:hidden;
+}
+.tocGoBtn
+{
+	position: absolute;
+	right:10px;
+	top: 3.5px;
+	width:24px;
+	height:23px;
+}
+.tocGoBtn:hover {cursor:pointer;}
+.tocSearchInput
+{
+	left:6px;
+	top:4px;
+	height:16px;
+	position: absolute;
+	font-family: Verdana;
+    font-size: 9px;
+	vertical-align : middle;
+}
+.tocSearchInputBorder
+{
+	left:3px;
+	top:3px;
+	height:24px;
+	position: absolute;
+}
+.tocFooterStyle
+{
+	height:30px;
+	position: absolute;
+}
+.tocFooterText
+{
+	top:6px;
+	left:8px;
+	height:18px;
+	position: absolute;
+	width : 126px;
+}
+.tocClearBtn
+{
+	position: absolute;
+	right:10px;
+	top: 3.5px;
+	width:24px;
+	height:23px;
+}
+.tocClearBtn:hover {cursor:pointer;}
+.tocInfo
+{
+	position: absolute;
+}
+.tocInfoField
+{
+	position: absolute;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocInfoField:hover {cursor:default;}
+.tocMoreInfoField
+{
+	position: absolute;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocMoreInfoField:hover {cursor:pointer;}
+.tocInfoWindow
+{
+	position: absolute;
+	width:206px;
+	height:216px;
+	top:63px;
+}
+.tocInfoHeader
+{
+	position: relative;
+	width:206px;
+	height:16px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocInfoClose
+{
+	position: absolute;
+	left: 190px;
+	top:5px;
+	width:10px;
+	height:10px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocInfoClose:hover {cursor:pointer;}
+.tocInfoBody
+{
+	position: absolute;
+	width:206px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.tocNoSearch
+{
+	position:absolute;
+	color: #000;
+	font-family : Verdana;
+	font-size : 14px;
+	width : 135px;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocNoSearch:hover{cursor:default;}
+.tocExpandCollapse
+{
+	position:absolute;
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none;
+}
+.tocExpandCollapse:hover{cursor:pointer;}

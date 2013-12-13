@@ -1,0 +1,110 @@
+input[type=checkbox]:checked
+{
+	background: url('../htmlimages/checkBox_selected.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=checkbox]:disabled
+{
+	background: url('../htmlimages/checkBox_disabled.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=checkbox]
+{
+	background: url('../htmlimages/checkBox_normal.png') no-repeat;	
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=checkbox]:disabled:checked
+{
+	background: url('../htmlimages/checkBox_selectedDisabled.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=radio]:checked
+{
+	background: url('../htmlimages/radioButton_selected.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=radio]
+{
+	background: url('../htmlimages/radioButton_normal.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=radio]:disabled
+{
+	background: url('../htmlimages/radioButton_disabled.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+input[type=radio]:disabled:checked
+{
+	background: url('../htmlimages/radioButton_selectedDisabled.png') no-repeat center center;
+	-webkit-appearance: none;
+	border: none;
+	-webkit-background-size: 22px 22px;
+}
+
+.spanRadioInput
+{
+	position: fixed;
+	display: block;
+	width:22px;
+	height:22px;
+}
+
+.spanCheckBoxInput
+{
+	position: fixed;
+	display: block;
+	width:22px;
+	height:22px;
+}
+
+.spanComboBox
+{
+	background-color: #edeeef;
+	//background: url('../htmlimages/comboBox.png') no-repeat center center;
+	border: 1px;
+	border-radius: 5px;
+	position: absolute;
+	display: block;
+}
+
+.spanArrow 
+{
+	background:url(../htmlimages/dd_arrow.gif) no-repeat 0 0; float:right; display:inline-block;width:16px; height:16px; cursor:pointer; 
+}
+
+.dropIndicator
+{
+	background:url(../htmlimages/arrow_right.gif) no-repeat 0 0;width:16px;height:16px;display:block;position:fixed;
+}
+
+.sequenceReviewImage
+{
+	background:url(../htmlimages/sequenceReview.png) no-repeat 0 0;width:17px;height:13px;display:block;position:fixed; cursor:pointer;border:0px;
+}
+
+.sequenceReviewArea
+{
+	background-color:#fff098;display:block;position:fixed;border:solid 2px;
+	font-size:10px;border-radius:5px;border-color:black;
+}

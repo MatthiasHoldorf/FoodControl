@@ -1,0 +1,113 @@
+.cp-movie
+{
+	display: none;
+	overflow: hidden;
+	position: absolute;
+}
+.cp-rewrap
+{
+	display:block;
+	position: absolute;
+}
+.cp-frameset
+{
+	display:none;
+	overflow: visible;
+	position: absolute;
+}
+
+.cp-input
+{
+    display:  block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.cp-audio
+{
+    display:  none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.cp-video
+{
+    display:  block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.cp-shape
+{
+    display:  block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.cp-mc
+{
+    display:  block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+.cp-gf
+{
+    display:  block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+}
+
+body
+{
+	background-color: #ffffff;
+}
+.autoPlayButton
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+.autoPlayButton:hover
+{
+	background:url('../Playbar_icons/Play_icon.png') no-repeat;
+	width:58px;
+	height:59px;
+	float:left;
+	position:absolute;
+	left:50px;
+}
+
+.cp-vtxt
+{
+    display:  block;
+	position: absolute;
+}
+
+@-webkit-keyframes fadeinfadeout
+{
+0%   {opacity:0;}
+50%  {opacity:1;}
+100% {opacity:0;}
+}
