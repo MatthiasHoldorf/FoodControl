@@ -4,7 +4,7 @@ A Windows Forms application that lets you keep track of your daily calories and 
 
 Documentation
 ==========
-Donwload the [OnlineHelpMainMenu](/OnlineHelpMainMenu) files for a video documentation of the project.
+Download the [OnlineHelpMainMenu](/OnlineHelpMainMenu) files for a video documentation of the project.
 
 Installation
 ==========
